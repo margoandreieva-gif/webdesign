@@ -1,0 +1,46 @@
+/* General page background */
+body {
+  background-color: #fdfbf7; /* soft milky background */
+  margin: 0; /* remove default browser margins */
+  font-family: 'Georgia', serif; /* nice readable font */
+}
+
+/* 1. Type selector (header) */
+header {
+  background-color: rgba(90, 0, 20, 0.7); /* dark wine with 70% opacity */
+  text-align: center; 
+  font-size: 32px; /* font property */
+  padding: 20px; 
+  border-bottom: 6px solid #4b000f; /* thicker, darker wine red line */
+  color: white; /* text color for contrast */
+}
+
+/* 2. ID selector (for example, you can add id="main-title" to h1 in HTML) */
+#main-title {
+  color: #002c58; /* color */
+  font-family: 'Georgia', serif; /* font */
+  margin: 20px; /* box model */
+}
+
+/* 3. Class selector */
+.artist-paragraph {
+  color: #002a0c; /* color */
+  font-size: 18px; /* font */
+  line-height: 1.6; /* text formatting */
+  padding: 10px; /* box model */
+  border-left: 8px solid #6f0016; /* box model */
+}
+
+/* 4. Descendant selector (applies only to h2 inside body) */
+body h2 {
+  color: #004521; /* color */
+  text-decoration: underline; /* text formatting */
+  font-weight: bold; /* font */
+  margin-top: 40px; /* box model */
+}
+
+/* 5. Universal selector (for all elements) */
+* {
+  box-sizing: border-box; /* box model */
+  position: relative; /* position */
+}
